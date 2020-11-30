@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="after_the_d">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="rating">
+        <item name="android:textSize">
+            12sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="name_film">
+        <item name="android:textSize">
+            40sp
+        </item>
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+        <item name="android:textColor">
+            #ECECEC
+        </item>
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+        <item name="android:shadowDx">
+            0
+        </item>
+        <item name="android:shadowDy">
+            6
+        </item>
+        <item name="android:shadowRadius">
+            12
+        </item>
+
+    </style>
+
+    <style name="actor_position_image_view">
+        <item name="android:layout_marginTop">
+            @dimen/margin_small
+        </item>
+        <item name="android:layout_width">
+            @dimen/margin_extra_large
+        </item>
+        <item name="android:layout_height">
+            @dimen/margin_extra_large
+        </item>
+    </style>
+
+    <style name="actor_position_name">
+        <item name="android:layout_marginTop">
+           6dp
+        </item>
+        <item name="android:layout_width">
+            @dimen/margin_none
+        </item>
+        <item name="android:layout_height">
+            wrap_content
+        </item>
+    </style>
+    <style name="ratinbar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar</item>
+        <item name="android:minHeight">22dip</item>
+        <item name="android:maxHeight">22dip</item>
+    </style>
+
+    <style name="tag">
+
+        <item name="android:textSize">
+            8sp
+        </item>
+
+        <item name="android:textColor">
+            #FF3466
+        </item>
+
+    </style>
+</resources>
