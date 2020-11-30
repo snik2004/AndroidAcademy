@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toTopOf="parent"/>
     <ImageView
-        android:id="@+id/bg_block"
+        android:id="@+id/card_movie"
         android:layout_width="170dp"
         android:layout_height="296dp"
         android:layout_alignParentStart="true"

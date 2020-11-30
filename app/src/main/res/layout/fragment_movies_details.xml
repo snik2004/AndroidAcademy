@@ -76,7 +76,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/button_back"
             android:layout_width="46dp"
             android:layout_height="17dp"
             android:layout_marginStart="12dp"

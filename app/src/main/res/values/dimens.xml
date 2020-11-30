@@ -32,5 +32,6 @@
 
     <!--<editor-fold desc="Shape">-->
     <dimen name="image_actor_shape_corner_size">4dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
     <!--</editor-fold>-->
 </resources>
