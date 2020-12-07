@@ -62,6 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/movie_list_header" />
 
     <TextView
+        android:id="@+id/pg"
         android:layout_width="@dimen/line_height_24"
         android:layout_height="@dimen/line_height_24"
         android:textColor="@color/white"
