@@ -2,91 +2,80 @@
 <resources>
 
 
-
-    <style name="after_the_d">
-        <item name="android:textSize">
-            14sp
-        </item>
-        <item name="android:textColor">
-            #FFFFFF
-        </item>
+    <style name="textViewStoryLine">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/story_line_and_rating_tv</item>
+        <item name="alpha">0.75</item>
     </style>
 
     <style name="rating">
-        <item name="android:textSize">
-            12sp
-        </item>
-        <item name="android:textColor">
-            #FFFFFF
-        </item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/story_line_and_rating_tv</item>
+        <item name="fontFamily">sans-serif-black</item>
     </style>
 
-    <style name="name_film">
-        <item name="android:textSize">
-            40sp
-        </item>
-        <item name="android:letterSpacing">
-            -0.01
-        </item>
-        <item name="android:textColor">
-            #ECECEC
-        </item>
-        <item name="android:shadowColor">
-            #80000000
-        </item>
-        <item name="android:shadowDx">
-            0
-        </item>
-        <item name="android:shadowDy">
-            6
-        </item>
-        <item name="android:shadowRadius">
-            12
-        </item>
+
+    <style name="textViewStyleNameFilm">
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/color_text_film_name</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">12</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_0</item>
+    </style>
+<style name="textViewBtnBack">
+    <item name="android:textColor">@color/color_text_film_name</item>
+    <item name="android:textSize">@dimen/text_size_12</item>
+    <item name="fontFamily">sans-serif-light</item>
+    <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_2</item>
+    <item name="alpha">0.5</item>
+
+
+</style>
+    <style name="imageViewActorPosition">
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:layout_width">@dimen/margin_80</item>
+        <item name="android:layout_height">@dimen/margin_80</item>
+    </style>
+
+    <style name="textViewActorName">
+        <item name="android:textColor">@color/color_tv_actor_name</item>
+    </style>
+
+    <style name="textViewCountReviews">
+        <item name="android:textColor">@color/color_tv_rewiews</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="tvStoryLine">
+        <item name="android:textColor">@color/color_tv_story_line</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
+    </style>
+
+
+
+    <style name="textViewGenre">
+        <item name="android:textColor">@color/color_tv_genre</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
 
     </style>
 
-    <style name="actor_position_image_view">
-        <item name="android:layout_marginTop">
-            @dimen/margin_small
-        </item>
-        <item name="android:layout_width">
-            @dimen/margin_extra_large
-        </item>
-        <item name="android:layout_height">
-            @dimen/margin_extra_large
-        </item>
-    </style>
-
-    <style name="actor_position_name">
-        <item name="android:layout_marginTop">
-           6dp
-        </item>
-        <item name="android:layout_width">
-            @dimen/margin_none
-        </item>
-        <item name="android:layout_height">
-            wrap_content
-        </item>
-        <item name="android:textColor">
-            @color/white
-        </item>
-    </style>
-    <style name="ratinbar" parent="@android:style/Widget.RatingBar">
-        <item name="android:progressDrawable">@drawable/rating_bar</item>
-        <item name="android:minHeight">22dip</item>
-        <item name="android:maxHeight">22dip</item>
-    </style>
 
     <style name="tag">
 
-        <item name="android:textSize">
-            8sp
-        </item>
+        <item name="android:textSize">@dimen/text_size_8</item>
 
-        <item name="android:textColor">
-            #FF3466
-        </item>
+        <item name="android:textColor">@color/color_tv_genre</item>
 
     </style>
 </resources>

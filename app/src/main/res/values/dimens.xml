@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--<editor-fold desc="Common">-->
-    <dimen name="margin_none">0dp</dimen>
-    <dimen name="margin_tiny">4dp</dimen>
-    <dimen name="margin_small">8dp</dimen>
-    <dimen name="margin_normal">16dp</dimen>
-    <dimen name="margin_large">24dp</dimen>
-    <dimen name="margin_extra_large">80dp</dimen>
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
     <!--</editor-fold>-->
 
     <!--<editor-fold desc="Movie screen">-->
@@ -14,8 +17,10 @@
     <!--</editor-fold>-->
 
     <!--<editor-fold desc="Typo">-->
+    <dimen name="text_size_8">8sp</dimen>
     <dimen name="text_size_12">12sp</dimen>
     <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
     <dimen name="text_size_40">40sp</dimen>
 
     <dimen name="line_height_14">14sp</dimen>
@@ -23,6 +28,8 @@
     <dimen name="line_height_20">20sp</dimen>
     <dimen name="line_height_24">24sp</dimen>
     <dimen name="line_height_40">40sp</dimen>
+    <dimen name="line_height_50">50sp</dimen>
+    <dimen name="line_height_60">60sp</dimen>
 
     <dimen name="line_spacing_extra_0">0sp</dimen>
     <dimen name="line_spacing_extra_2">2sp</dimen>
