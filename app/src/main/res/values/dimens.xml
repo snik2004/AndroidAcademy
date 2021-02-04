@@ -2,13 +2,19 @@
 <resources>
     <!--<editor-fold desc="Common">-->
     <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
     <dimen name="margin_4">4dp</dimen>
     <dimen name="margin_6">6dp</dimen>
     <dimen name="margin_8">8dp</dimen>
     <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
     <dimen name="margin_16">16dp</dimen>
     <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
     <dimen name="margin_80">80dp</dimen>
     <!--</editor-fold>-->
 
@@ -35,6 +41,7 @@
     <dimen name="line_spacing_extra_2">2sp</dimen>
     <dimen name="line_spacing_extra_4">4sp</dimen>
     <dimen name="line_spacing_extra_8">8sp</dimen>
+    <dimen name="line_spacing_multiplier">1.25</dimen>
     <!--</editor-fold>-->
 
     <!--<editor-fold desc="Shape">-->

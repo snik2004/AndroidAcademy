@@ -7,7 +7,7 @@
     <string name="name_movie">Avengers:\nEnd Game</string>
     <string name="name_movie2">Avengers:End Game</string>
     <string name="rating">13+</string>
-    <string name="back">Back</string>
+    <string name="back">    Back</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cast">Cast</string>
@@ -15,4 +15,5 @@
     <string name="chris_evans">Chris Evans</string>
     <string name="mark_ruffalo">Mark Ruffalo</string>
     <string name="chris_hemsworth">Chris Hemsworth</string>
+    <string name="movie_list">Movie list</string>
 </resources>
