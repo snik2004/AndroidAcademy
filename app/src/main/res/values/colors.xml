@@ -15,6 +15,7 @@
     <color name="color_star_active">#FF3365</color>
     <color name="color_tv_rewiews">#6D6D80</color>
     <color name="color_tv_story_line">#ECECEC</color>
+    <color name="color_bg_fragment_layout">#191926</color>
 
 
 </resources>
