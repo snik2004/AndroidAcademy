@@ -83,6 +83,7 @@
         <item name="fontFamily">sans-serif-black</item>
         <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
         <item name="textAllCaps">true</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
 
     <style name="tvStoryLine">
