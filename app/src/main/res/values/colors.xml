@@ -6,5 +6,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="color_text_film_name">#FFFFFF</color>
+    <color name="white">#ECECEC</color>
+    <color name="story_line_and_rating_tv">#FFFFFF</color>
+    <color name="color_tv_actor_name">#D8D8D8</color>
+    <color name="color_tv_genre">#FF3466</color>
+    <color name="color_bg_movie_activity_detail">#191926</color>
+    <color name="color_star_active">#FF3365</color>
+    <color name="color_tv_rewiews">#6D6D80</color>
+    <color name="color_tv_story_line">#ECECEC</color>
+
+
 </resources>
