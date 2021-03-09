@@ -163,6 +163,15 @@
         app:layout_constraintTop_toBottomOf="@id/name_film"
         app:layout_constraintBottom_toBottomOf="@id/card_movie"
         app:layout_constraintEnd_toEndOf="@id/card_movie"/>
+    <View
+        android:id="@+id/card"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/margin_0"
+        app:layout_constraintTop_toTopOf="@id/card_movie"
+        app:layout_constraintBottom_toBottomOf="@id/card_movie"
+        app:layout_constraintStart_toStartOf="@id/card_movie"
+        app:layout_constraintEnd_toEndOf="@id/card_movie"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
