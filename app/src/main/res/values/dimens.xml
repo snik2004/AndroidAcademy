@@ -48,5 +48,8 @@
     <dimen name="image_actor_shape_corner_size">4dp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="margin_large_28">28dp</dimen>
+    <dimen name="margin_44">44dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
     <!--</editor-fold>-->
 </resources>

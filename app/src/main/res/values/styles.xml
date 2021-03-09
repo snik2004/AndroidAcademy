@@ -77,6 +77,14 @@
         <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
         <item name="textAllCaps">true</item>
     </style>
+    <style name="textViewCountReviews.cardMovie">
+        <item name="android:textColor">@color/color_tv_rewiews</item>
+        <item name="android:textSize">@dimen/text_size_8</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra_4</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
 
     <style name="tvStoryLine">
         <item name="android:textColor">@color/color_tv_story_line</item>
@@ -102,4 +110,13 @@
         <item name="android:textColor">@color/color_tv_genre</item>
 
     </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/abc_ratingbar_small_material</item>
+        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_small_material</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:thumb">@null</item>
+    </style>
+
 </resources>
